@@ -1,0 +1,100 @@
+@font-face {
+    font-family: tall;
+    src: url(fonts/Bignoodletitling-8ojz.ttf);
+}
+@font-face {
+    font-family: "modern";
+    src: url(fonts/Snorkad-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(images/oldColonySchoolImage.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+header {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    font-size: 200%;
+    font-family: tall;
+    display: flex;
+    gap: 20px;
+    letter-spacing: .1em;
+}
+.left-nav, .right-nav {
+    display: flex;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #f0f0f0;
+}
+footer {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.typed-out{
+    margin: 0 auto;
+    overflow: hidden;
+    padding-right: 0;
+    border-right: .09em solid grey;
+    white-space: nowrap;
+    animation: typing 2.5s steps(30, end) forwards, blinking .8s infinite;
+
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 55% }
+}
+@keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: black; }
+}
+
+#quote{
+    display: block;
+    text-align: center;
+    font-size: 5vw;
+    font-family: modern;
+    margin-top: 17%;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.334); */
+
+}
+
+
+.planning{
+    
+    text-align: center;
+    margin: 50px auto;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+.planning img{
+    
+    width: 60%;
+
+}
+
+/* MAKE ALL REFLECTIONS ON WORK GO ON LEFT */
